@@ -18,7 +18,7 @@ public class questao_3 {
     }
   
     static void analisaAnagrama(String s){
-        HashMap<String, Integer> anagramas = new HashMap<>();// 
+        HashMap<String, Integer> anagramas = new HashMap<>();
         int t =s.length();
   
         for(int i = 0; i < t; i++){// O laço for está sendo usado para colocar cada letra do objeto do tipo String detro do array.
